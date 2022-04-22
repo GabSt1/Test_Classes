@@ -6,6 +6,10 @@ class Television:
     MAX_VOLUME = 2      # Maximum TV volume
 
     def __init__(self) -> None:
+
+        '''
+        This will make the TV start with the TV off, the channel set to 0, and the volume set to 0
+        '''
         self.__tvChannel = int = Television.MIN_CHANNEL
         self.__tvVolume = int = Television.MIN_VOLUME
         self.__tvStatus = 'False'
